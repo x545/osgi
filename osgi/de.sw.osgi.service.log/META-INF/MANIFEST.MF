@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Log
+Bundle-SymbolicName: de.sw.osgi.service.log
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: de.sw.osgi.service.log.Activator
+Import-Package: org.osgi.framework;version="1.3.0",
+ org.osgi.service.log; version="1.3",
+ org.osgi.util.tracker;version="1.3.1"
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
